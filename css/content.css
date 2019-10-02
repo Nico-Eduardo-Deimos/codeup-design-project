@@ -1,0 +1,33 @@
+/*fonts {
+font-family: 'Anton', sans-serif;
+font-family: 'Abel', sans-serif;
+
+*/
+
+/*twitter icon {
+<i class="fab fa-twitter"></i>
+*/
+* {
+    background-color: #f8f9fa;
+}
+nav {
+    font-family: 'Abel', sans-serif;
+    padding: 1em;
+    margin-top: 1em;
+
+
+}
+.dot {
+    height: 80px;
+    width: 80px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: space-between;
+}
+.visual {
+    font-family: 'Anton', sans-serif;
+}
+.nav-link {
+    color: black;
+}
