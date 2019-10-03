@@ -1,4 +1,4 @@
-body, .main-card, .list-group-item, .list-group, .card{
+body, .main-card, .list-group-item, .list-group, .card, h2{
     background: #F0F0F0;
 }
 .anton{
@@ -61,7 +61,23 @@ main .container{
     width: 50px;
     height: 50px;
 }
-@media (min-width: 576px) {
+
+
+
+#logo {
+    width: 105px;
+    height: 105px;
+
+}
+
+
+header {
+    background-color: white;
+[]
+
+@media (min-width: 576px) { /*small*/
+
+
     .selected-card{
         width: 15rem;
         height: 13rem;
@@ -76,7 +92,7 @@ main .container{
 
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px){ /*medium*/
     .selected-card{
         width: 13rem;
         height: 10rem;
@@ -90,6 +106,10 @@ main .container{
         margin-right: 2em;
         margin-left: 3em;
     }
+
+}
+
+@media (min-width: 992px){ /*l-xl*/
 
 }
 /** {
