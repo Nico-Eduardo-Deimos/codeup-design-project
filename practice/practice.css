@@ -1,0 +1,71 @@
+body, .main-card, .list-group-item, .list-group{
+    background: #F0F0F0;
+}
+.anton{
+    font-family: 'Anton', sans-serif;
+}
+
+.abel{
+    font-family: 'Abel', sans-serif;
+}
+
+.visual h5{
+    line-height: 28px;
+}
+
+main .container{
+    font-size: 12px;
+}
+
+.dot{
+    width: 105px;
+    height: 105px;
+    line-height: 105px;
+    border: 5px solid #ffff;
+    color: white;
+    display: inline-block;
+}
+.small-dot{
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+    line-height: 18px;
+    display: inline-block;
+}
+
+.design{
+    background: #E6563B;
+}
+
+.develop{
+    background: #EB9D3A;
+}
+
+.support{
+    background: #7CB06C;
+}
+
+.host{
+    background: #00ABA9;
+}
+
+.card-body{
+    padding: 0;
+}
+
+.selected-card{
+    width: 17rem;
+}
+
+.list-group-item img{
+    width: 50px;
+    height: 50px;
+}
+@media (min-width: 576px) {
+    .selected-card{
+        width: 15rem;
+        height: 13rem;
+        margin-right: 5em;
+    }
+
+}

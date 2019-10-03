@@ -1,11 +1,105 @@
-* {
+body, .main-card, .list-group-item, .list-group, .card{
+    background: #F0F0F0;
+}
+.anton{
+    font-family: 'Anton', sans-serif;
+}
+
+.abel{
+    font-family: 'Abel', sans-serif;
+}
+
+.visual h5{
+    line-height: 28px;
+}
+
+main .container{
+    font-size: 12px;
+}
+
+.dot{
+    width: 105px;
+    height: 105px;
+    line-height: 105px;
+    border: 5px solid #ffff;
+    color: white;
+    display: inline-block;
+}
+.small-dot{
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+    line-height: 18px;
+    display: inline-block;
+}
+
+.design{
+    background: #E6563B;
+}
+
+.develop{
+    background: #EB9D3A;
+}
+
+.support{
+    background: #7CB06C;
+}
+
+.host{
+    background: #00ABA9;
+}
+
+.card-body{
+    padding: 0;
+}
+
+.selected-card{
+    width: 17rem;
+}
+
+.list-group-item img{
+    width: 50px;
+    height: 50px;
+}
+@media (min-width: 576px) {
+    .selected-card{
+        width: 15rem;
+        height: 13rem;
+        margin-right: 5em;
+    }
+
+    .card-img-top{
+        width: 100%;
+        height: 10rem;
+    }
+
+
+}
+
+@media (min-width: 768px){
+    .selected-card{
+        width: 13rem;
+        height: 10rem;
+    }
+
+    .card-img-top{
+        height: 8rem;
+    }
+
+    .main-card{
+        margin-right: 2em;
+        margin-left: 3em;
+    }
+
+}
+/** {
     background-color: #F0F0F0;
 }
 body {
     background-color: #F0F0F0;
 }
 
-/*BIG DOT SECTION START*/
+!*BIG DOT SECTION START*!
 .big-circles{
     border-bottom: 2px solid darkgrey;
     padding: 2em;
@@ -26,16 +120,17 @@ body {
 }
 #dot-two{
     background-color: #EB9D3A;
-}
+}*/
+/*
 #dot-three{
     background-color: #7CB06C;
 }
 #dot-four{
     background-color: #00ABA9;
 }
-/*BIG DOT SECTION END*/
+!*BIG DOT SECTION END*!
 
-/*SMALL DOT SECTION START*/
+!*SMALL DOT SECTION START*!
 .small-dot-one{
     background-color: #E6563B;
     font-family: 'Anton', sans-serif;
@@ -84,17 +179,17 @@ body {
     color: black;
     line-height: 18px
 }
-/*SMALL DOT SECTION END*/
+!*SMALL DOT SECTION END*!
 
-/*BORDERS FOR IMG START*/
+!*BORDERS FOR IMG START*!
 .card-img-top{
     border: 5px solid #E6E6E6;
     height: 180px;
 }
-/*BORDERS FOR IMG END*/
+!*BORDERS FOR IMG END*!
 
 
-/*MAIN CARD WITH ARTICLES START*/
+!*MAIN CARD WITH ARTICLES START*!
 .card{
     border-style: none;
 }
@@ -104,9 +199,9 @@ body {
 .card-title{
     font-family: 'Abel', sans-serif;
 }
-/*MAIN CARD WITH ARTICLES END*/
+!*MAIN CARD WITH ARTICLES END*!
 
-/*RIGHT SIDE CARD WITH ARTICLES START*/
+!*RIGHT SIDE CARD WITH ARTICLES START*!
 #main-card{
     background-color: #F0F0F0;
     border-style: none;
@@ -126,9 +221,9 @@ body {
     height: 50px;
     border: 2px solid #e6e6e6;
 }
-/*RIGHT SIDE CARD WITH ARTICLES END*/
+!*RIGHT SIDE CARD WITH ARTICLES END*!
 
-/*HEADER*/
+!*HEADER*!
 nav {
     font-family: 'Abel', sans-serif;
     padding: 1em;
@@ -140,4 +235,5 @@ nav {
 .nav-link {
     color: black;
 }
-/*HEADER END*/
+!*HEADER END*!
+*/
