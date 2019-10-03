@@ -22,7 +22,8 @@
 <header>
     <!--nav start-->
     <nav class="navbar navbar-expand-sm navbar-light bg-light p-0">
-        <div class="order-md-2 order-sm-1 float-sm-left ">
+
+        <div class="order-md-2 order-sm-1 float-sm-left">
             <ul class="navbar-first navbar-nav text-center d-none d-sm-block list-inline">
                 <li class="nav-item active list-inline-item">
                     <a class="nav-link p-0" href="#">Services</a>
@@ -33,10 +34,13 @@
             </ul>
         </div>
         <div class="logo my-2 order-sm-2 order-md-1">
+            <!--img and codeup design begin-->
             <div class="codeup abel text-center ">
                 <img id="logo" src="img/logo.jpg" class="rounded-circle">
-                <div class="codeup-design">codeup design</div>
+                <div class="codeup-design d-none d-md-block d-lg-block d-xl-block">codeup design</div>
             </div>
+
+            <!--img and codeup design end-->
         </div>
         <div class="order-md-3 order-sm-3 float-sm-right">
             <ul class="navbar-second navbar-nav text-center d-none d-sm-block list-inline">
@@ -49,14 +53,22 @@
             </ul>
         </div>
     </nav>
-    <div>
-
-        <!--<h2 class="abel text-center d-md-none d-lg-none d-xl-none">codeup design
-            <a class="mx-auto" href="#">
-                <img id="logo" src="img/logo.jpg" class="rounded-circle">
-            </a>
-        </h2>-->
+    <div class="bottom-nav abel text-center d-sm-none d-md-none d-lg-none d-xl-none p-2 m-1">
+        <h2>codeup design</h2>
+        <a href="#" class="badge" style="color:black">SERVICES</a>
+        <a href="#" class="badge" style="color:black">WORK</a>
+        <a href="#" class="badge" style="color:black">BLOG</a>
+        <a href="#" class="badge" style="color:black">CONTACT</a>
     </div>
+
+
+    <!--<div>
+        <h2 class="abel text-center d-md-none d-lg-none d-xl-none">codeup design
+            &lt;!&ndash;<a class="mx-auto" href="#">
+                <img id="logo" src="img/logo.jpg" class="rounded-circle">
+            </a>&ndash;&gt;
+        </h2>
+    </div>-->
 
    <!-- <nav class="navbar  w-100">
         <div class="container-fluid nav-bar">
@@ -111,8 +123,7 @@
         </nav>--><!--nav attempt1-->
     <!--</div>-->
 </header>
-
-    <!--nav end-->
+    <!--HEADER END-->
 
     <!-- Container for title and circles
     <div class="container">
@@ -134,7 +145,7 @@
     </div>
      end container -->
     <!-- Container-->
-    <div class="container">
+    <div class="circle-container">
         <div class="row">
             <div class="visual pt-3 col-12">
                 <p>
@@ -142,17 +153,18 @@
                 <h5 class="anton text-center h5 text-uppercase">from park city, utah</h5>
             </div>
 
-            <div class="able big-circles pt-3 text-center col-12">
+            <div class="circles anton big-circles pt-3 text-center col-12">
                 <div id="dot-one" class="dot design h6 rounded-circle text-center text-uppercase">Design</div>
                 <div id="dot-two" class="dot develop h6 rounded-circle text-center text-uppercase">Develop</div>
                 <div class="w-100 d-block d-sm-none"></div>
                 <div id="dot-three" class="dot support h6 rounded-circle text-center text-uppercase">Support</div>
                 <div id="dot-four" class="dot host h6 rounded-circle text-center text-uppercase">Host</div>
+
             </div>
         </div>
     </div>
 
-    <hr class="my-4">
+
 <!--    <hr>-->
 </header>
 <!--HEADER END-->
@@ -160,11 +172,11 @@
 
 <!--MAIN START-->
 <main>
-    <div class="container  last-section m-0 p-0">
+    <div class="container last-section  p-0">
 
         <div class="row">
             <!-- Main Card for Selected Work--->
-            <div class="main-card card col-12 col-md-7 border-0 p-0">
+            <div class="main-card card col-12 col-md-7 border-0">
                 <h6 class="abel card-subtitle text-uppercase mx-auto mb-3">
                     selected work
                 </h6>
@@ -175,10 +187,10 @@
                     <!--Row inside main card body-->
                     <div class="row">
                         <!--column for first 2 pictures-->
-                        <div class="col-12 col-sm-6 p-0">
+                        <div class="apple-man-card col-12 col-sm-6">
 
                             <!--Card for Apple-Ipad -->
-                            <div class="card selected-card mb-5 border-0">
+                            <div class="apple-card selected-card mb-5 border-0">
                                 <span class="border rounded"><img src="img/apple-ipad.jpg" class="card-img-top" alt="Apple Ipad"></span>
                                 <div class="card-body">
                                     <p>
@@ -197,7 +209,7 @@
                             <!--End of card Apple-Ipad -->
 
                             <!-- Card for Man--->
-                            <div class="card selected-card mb-5 border-0">
+                            <div class="card selected-card mb-5 border-0 d-none d-sm-block">
                                 <span class="border rounded"><img src="img/man.jpg" class="card-img-top" alt="Apple Ipad"></span>
                                 <div class="card-body">
                                     <p>
@@ -218,11 +230,12 @@
 
                         <!--column for remaining 2 pictures-->
 
-                        <div class="col-12 col-sm-6 p-0">
+                        <div class="mac-sec-card col-12 col-sm-6">
 
                             <!-- Card for Macbook -->
-                            <div class="card selected-card mb-5 border-0">
-                                <span class="border rounded"><img src="img/macbook.jpg" class="card-img-top" alt="Macbook"></span>
+                            <div class="card-mac selected-card mb-5 border-0 d-none d-sm-block">
+                                <span class="border rounded">
+                                    <img src="img/macbook.jpg" class="card-img-top" alt="Macbook"></span>
                                 <div class="card-body">
                                     <p>
                                     <div class="float-left abel card-subtitle text-uppercase">
@@ -240,7 +253,7 @@
                             <!-- End of Macbook -->
 
                             <!-- Card for Security -->
-                            <div class="card selected-card mb-5 border-0">
+                            <div class="card selected-card mb-5 border-0 d-none d-sm-block">
                                 <span class="border rounded"><img src="img/security.jpg" class="card-img-top" alt="Apple Ipad"></span>
                                 <div class="card-body">
                                     <p>
@@ -458,7 +471,6 @@
     <!-- end of Row -->
 
     <!--</div>-->
-    -->
 </main>
 <!--MAIN END-->
 
