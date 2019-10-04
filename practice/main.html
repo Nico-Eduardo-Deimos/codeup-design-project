@@ -16,24 +16,84 @@
     <!--title start-->
     <title>Codeup Design Project</title>
     <!--title end-->
-
 </head>
 <body>
 <!--HEADER START-->
 <header>
     <!--nav start-->
-    <nav class="navbar navbar-light bg-white w-100">
-        <a class="navbar-brand" href="#">
-            <!--img with words-->
-            <img id= "img" src="../img/logo.jpg"
-                 width="30"
-                 height="30"
-                 class="d-inline-block align-top"
-                 alt="">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light p-0">
+        <div class="order-md-2 order-sm-1 float-sm-left ">
+            <ul class="navbar-first navbar-nav text-center d-none d-sm-block list-inline">
+                <li class="bar nav-item active list-inline-item">
+                    <a class="nav-link p-0" href="#">Services</a>
+                </li>
+                <li class="nav-item list-inline-item">
+                    <a class="nav-link p-0" href="#">Work</a>
+                </li>
+            </ul>
+        </div>
+        <div class="logo my-2 order-sm-2 order-md-1">
+            <div class="codeup abel text-center ">
+                <img id="logo" src="../img/logo.jpg" class="rounded-circle">
+                <div class="codeup-design">codeup design</div>
+            </div>
+        </div>
+        <div class="order-md-3 order-sm-3 float-sm-right">
+            <ul class="navbar-second navbar-nav text-center d-none d-sm-block list-inline">
+                <li class="nav-item list-inline-item">
+                    <a class="nav-link p-0" href="#">Blog</a>
+                </li>
+                <li class="nav-item list-inline-item">
+                    <a class="nav-link p-0" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div>
+
+        <!--<h2 class="abel text-center d-md-none d-lg-none d-xl-none">codeup design
+            <a class="mx-auto" href="#">
+                <img id="logo" src="img/logo.jpg" class="rounded-circle">
+            </a>
+        </h2>-->
+    </div>
+
+    <!-- <nav class="navbar  w-100">
+         <div class="container-fluid nav-bar">
+                 <div>
+                     <a class="mx-auto" href="#">
+                         <img src="img/logo.jpg"
+                             class="rounded mx-auto d-block"
+                             width="105" height="105"
+                             alt="logo">
+                     </a>
+                 </div>
+         </div>
+             <ul class="nav nav-links justify-content-center">
+                 <li class="nav-item bg-white">
+                     <a class="nav-link active" href="#">Services</a>
+                 </li>
+                 <li class="nav-item bg-white">
+                     <a class="nav-link" href="#">Work</a>
+                 </li>
+                 <li class="nav-item bg-white">
+                     <a class="nav-link" href="#">Blog</a>
+                 </li>
+                 <li class="nav-item bg-white">
+                     <a class="nav-link" href="#">Contact</a>
+                 </li>
+             </ul>
+     </nav>--><!--nav attempt 2-->
+    <!--<nav class="navbar navbar-light bg-white w-100">
+        <img id= "logo" src="img/logo.jpg"
+             class="d-inline-block align-top"
+             alt="logo">
+      &lt;!&ndash;  <a class="navbar-brand" href="#">
+
             codeup design
-        </a>
-        <!--right elements-->
-        <ul class="nav justify-content-center">
+        </a>&ndash;&gt;
+        &lt;!&ndash;right elements&ndash;&gt;
+        <ul class="nav nav-links justify-content-center">
             <li class="nav-item bg-white">
                 <a class="nav-link active" href="#">Services</a>
             </li>
@@ -47,59 +107,79 @@
                 <a class="nav-link" href="#">Contact</a>
             </li>
         </ul>
-        <!--right elements end-->
-    </nav>
-    <!--nav end-->
+    &lt;!&ndash;right elements end&ndash;&gt;
+    </nav>--><!--nav attempt1-->
+    <!--</div>-->
+</header>
 
-    <!-- Container for title and circles -->
-    <div class="container">
-        <div class="row">
-            <div class="visual pt-3 col-12">
-                <p>
-                <h1 class="anton text-center h1 mb-4 text-uppercase" >visual design & web development</h1>
-                <h5 class="anton text-center h5 text-uppercase">from park city, utah</h5>
-            </div>
+<!--nav end-->
 
-            <div class="able big-circles pt-3 text-center col-12">
-                <div id="dot-one" class="dot design h6 rounded-circle text-center text-uppercase">Design</div>
-                <div id="dot-two" class="dot develop h6 rounded-circle text-center text-uppercase">Develop</div>
-                <div class="w-100 d-block d-sm-none"></div>
-                <div id="dot-three" class="dot support h6 rounded-circle text-center text-uppercase">Support</div>
-                <div id="dot-four" class="dot host h6 rounded-circle text-center text-uppercase">Host</div>
-            </div>
+<!-- Container for title and circles
+<div class="container">
+    <div class="row">
+        <div class="visual pt-3 col-12">
+            <p>
+            <h2 class="text-center" >VISUAL DESIGN & WEB DEVELOPMENT</h2>
+            <h3 class="text-center">FROM PARK CITY, UTAH</h3>
+        </div>
+
+        <div class="big-circles pt-3 text-center col-12">
+            <span id="dot-one" class="dot pt-4">Design</span>
+            <span id="dot-two" class="dot pt-4">Develop</span>
+            <div class="w-100 d-block d-sm-none"></div>
+            <span id="dot-three" class="dot pt-4">Support</span>
+            <span id="dot-four" class="dot pt-4">Host</span>
         </div>
     </div>
-    <!-- end container -->
+</div>
+ end container -->
+<!-- Container-->
+<div class="container">
+    <div class="row">
+        <div class="visual pt-3 col-12">
+            <p>
+            <h1 class="anton text-center h1 mb-4 text-uppercase" >visual design & web development</h1>
+            <h5 class="anton text-center h5 text-uppercase">from park city, utah</h5>
+        </div>
 
+        <div class="able big-circles pt-3 text-center col-12">
+            <div id="dot-one" class="dot design h6 rounded-circle text-center text-uppercase">Design</div>
+            <div id="dot-two" class="dot develop h6 rounded-circle text-center text-uppercase">Develop</div>
+            <div class="w-100 d-block d-sm-none"></div>
+            <div id="dot-three" class="dot support h6 rounded-circle text-center text-uppercase">Support</div>
+            <div id="dot-four" class="dot host h6 rounded-circle text-center text-uppercase">Host</div>
+        </div>
+    </div>
+</div>
 
-    <!--    <hr>-->
+<hr class="my-4">
+<!--    <hr>-->
 </header>
 <!--HEADER END-->
 
-<hr class="my-4">
 
 <!--MAIN START-->
 <main>
-    <div class="container pt-5 mt-5">
+    <div class="container  last-section m-0 p-0">
 
-        <div class="row">
+        <div class="row justify-content-center">
             <!-- Main Card for Selected Work--->
-            <div class="main-card card col-12 col-md-8 border-0">
+            <div class="main-card card col-12 col-md-7 border-0 align-self-center">
                 <h6 class="abel card-subtitle text-uppercase mx-auto mb-3">
                     selected work
                 </h6>
 
                 <!--Main card body -->
-                <div class="card-body p-0">
+                <div class="card-body">
 
                     <!--Row inside main card body-->
                     <div class="row">
                         <!--column for first 2 pictures-->
-                        <div class="col-12 col-sm-6">
+                        <div class="column1 col-12 col-sm-6 p-0">
 
                             <!--Card for Apple-Ipad -->
-                            <div class="card selected-card mx-auto mb-5">
-                                <span class="border rounded"><img src="../img/apple-ipad.jpg" class="card-img-top" alt="Apple Ipad"></span>
+                            <div class="card selected-card mb-5 border-0">
+                                <span class="border rounded"><img src="img/apple-ipad.jpg" class="card-img-top" alt="Apple Ipad"></span>
                                 <div class="card-body">
                                     <p>
                                     <div class="float-left abel card-subtitle text-uppercase">
@@ -117,8 +197,8 @@
                             <!--End of card Apple-Ipad -->
 
                             <!-- Card for Man--->
-                            <div class="card selected-card mx-auto mb-5">
-                                <span class="border rounded"><img src="../img/man.jpg" class="card-img-top" alt="Apple Ipad"></span>
+                            <div class="card selected-card mb-5 border-0">
+                                <span class="border rounded"><img src="img/man.jpg" class="card-img-top" alt="Apple Ipad"></span>
                                 <div class="card-body">
                                     <p>
                                     <div class="float-left abel card-subtitle text-uppercase">
@@ -138,30 +218,30 @@
 
                         <!--column for remaining 2 pictures-->
 
-                        <div class="col-12 col-sm-6">
+                        <div class="column2 col-12 col-sm-6 p-0">
 
                             <!-- Card for Macbook -->
-                            <div class="card selected-card mx-auto mb-5">
-                                <span class="border rounded"><img src="../img/macbook.jpg" class="card-img-top" alt="Macbook"></span>
+                            <div class="card selected-card mb-5 border-0">
+                                <span class="border rounded"><img src="img/macbook.jpg" class="card-img-top" alt="Macbook"></span>
                                 <div class="card-body">
                                     <p>
-                                        <div class="float-left abel card-subtitle text-uppercase">
-                                            featured projects
-                                        </div>
-                                        <div class="float-right">
-                                            <div class="anton design small-dot rounded-circle text-center">D</div>
-                                            <div class="anton develop small-dot rounded-circle text-center">D</div>
-                                            <div class="anton support small-dot rounded-circle text-center">S</div>
-                                            <div class="anton host small-dot rounded-circle text-center">H</div>
-                                        </div>
+                                    <div class="float-left abel card-subtitle text-uppercase">
+                                        featured projects
+                                    </div>
+                                    <div class="float-right">
+                                        <div class="anton design small-dot rounded-circle text-center">D</div>
+                                        <div class="anton develop small-dot rounded-circle text-center">D</div>
+                                        <div class="anton support small-dot rounded-circle text-center">S</div>
+                                        <div class="anton host small-dot rounded-circle text-center">H</div>
+                                    </div>
                                     </p>
                                 </div>
                             </div>
                             <!-- End of Macbook -->
 
                             <!-- Card for Security -->
-                            <div class="card selected-card mx-auto mb-5">
-                                <span class="border rounded"><img src="../img/security.jpg" class="card-img-top" alt="Apple Ipad"></span>
+                            <div class="card selected-card mb-5 border-0">
+                                <span class="border rounded"><img src="img/security.jpg" class="card-img-top" alt="Apple Ipad"></span>
                                 <div class="card-body">
                                     <p>
                                     <div class="float-left abel card-subtitle text-uppercase">
@@ -187,45 +267,50 @@
             </div> <!-- end of main-card for selected work"-->
 
             <!-- Main card for The Last section-->
-            <div class="card col-md-4 d-none d-sm-none d-md-block text-left m-0 p-0" id="main-card">
+            <div class="card col-md-4 d-none d-sm-none d-md-block text-left m-0 p-0 border-0 align-self-center" id="main-card">
 
                 <!--Section for the articles-->
-                <div class="card mb-4 border-0">
-                    <div class="card-header text-uppercase abel border-0">
+                <div class="card mb-1 border-0">
+                    <h6 class="abel card-subtitle text-uppercase mb-3">
                         <p>the last</p>
-                    </div>
+                    </h6>
+
+                </div>
+                <!--End of section for articles -->
+                <div class="card-body">
                     <ul class="list-group list-group-flush border-0">
-                        <li class="list-group-item">
-                            <img id= "twitter-ad-one" src="../img/mobile-phone.jpg" alt="mobile phone" class="article-pic float-left mr-3">
+                        <li class="list-group-item p-0 mb-3 border-0">
+                            <img src="img/mobile-phone.jpg" alt="mobile phone" class="article-pic float-left mr-3">
                             <p class="text-uppercase h5 anton">the admin bar and absolute positioning</p>
                         </li>
-                        <li id= "twitter-ad-two" class="list-group-item">
+                        <li class="list-group-item p-0 mb-3 border-0">
 
-                            <img src="../img/head.jpg" alt="head" class="article-pic float-left mr-3">
+                            <img src="img/head.jpg" alt="head" class="article-pic float-left mr-3">
                             <p class="text-uppercase h5 anton">nibbler awesome website testing</p>
                         </li>
 
-                        <li id= "twitter-ad-three" class="list-group-item">
-                            <img src="../img/ipad.jpg" alt="ipad" class="article-pic float-left mr-3">
+                        <li class="list-group-item p-0 mb-3 border-0">
+                            <img src="img/ipad.jpg" alt="ipad" class="article-pic float-left mr-3">
                             <p class="text-uppercase h5 anton">how to get google to like you</p>
                         </li>
 
                     </ul>
-                </div>
-                <!--End of section for articles -->
 
-                <!--Section for Twitter card -->
-                <div class="card text-left d-none d-sm-none d-md-block width-100%" id="twitter">
-                    <h6 class="abel text-uppercase mb-3">
-                        <i class="fab fa-twitter d-inline-block align-center"></i>
-                        last tweet
-                    </h6>
-                    <p>
-                        生16少エヌ欠同げぴけ舵敬み
-                        ちっ善文スハ冤帰歴ばレうお。
-                    </p>
+                    <!--Section for Twitter card -->
+                    <div class="card text-left d-none d-sm-none d-md-block width-100% border-0 mt-5" id="twitter">
+                        <h6 class="abel text-uppercase mb-3">
+                            <i class="fab fa-twitter d-inline-block align-center"></i>
+                            last tweet
+                        </h6>
+                        <p>
+                            生16少エヌ欠同げぴけ舵敬み
+                            ちっ善文スハ冤帰歴ばレうお。
+                        </p>
+                    </div>
+                    <!--End of twitter card -->
                 </div>
-                <!--End of twitter card -->
+
+
 
             </div>
             <!--End of main card for The Last section-->
@@ -233,6 +318,147 @@
         <!-- end of Row -->
 
     </div> <!-- end container -->
+</main>
+<!--MAIN END-->
+
+<!--<div class="container pt-5 mt-5">
+
+    <div class="row">
+
+<div class="main-card col-12 col-md-8">
+    <div class="card-title">
+        SELECTED WORK
+    </div>
+
+    &lt;!&ndash;Main card body &ndash;&gt;
+    <div class="card-body p-0">
+
+        &lt;!&ndash;Row inside main card body&ndash;&gt;
+        <div class="row">
+            &lt;!&ndash;column for first 2 pictures&ndash;&gt;
+            <div class="col-12 col-sm-5">
+
+                &lt;!&ndash;Card for Apple-Ipad &ndash;&gt;
+                <div class="card" style="width: 17rem;">
+                    <span class="border rounded"><img src="img/apple-ipad.jpg" class="card-img-top" alt="Apple Ipad"></span>
+                    <div class="card-body">
+                        <p class="card-subtitle mb-2 text-muted">FEATURED PROJECTS
+                            <span class="small-dot-one text-center">D</span>
+                            <span class="small-dot-two text-center">D</span>
+                            <span class="small-dot-three text-center">S</span>
+                            <span class="small-dot-four text-center">H</span>
+                        </p>
+                    </div>
+                </div>
+                &lt;!&ndash;End of card Apple-Ipad &ndash;&gt;
+
+                &lt;!&ndash; Card for Man-&ndash;&gt;
+                <div class="card" style="width: 17rem;">
+                    <span class="border rounded"><img src="img/man.jpg" class="card-img-top" alt="Apple Ipad"></span>
+                    <div class="card-body">
+                        <div class="card-subtitle mb-2 text-muted">FEATURED PROJECTS
+                            <span class="small-dot-one text-center">D</span>
+                            <span class="small-dot-two text-center">D</span>
+                            <span class="small-dot-three text-center">S</span>
+                            <span class="small-dot-four text-center">H</span>
+                        </div>
+                    </div>
+                </div>
+                &lt;!&ndash; End of Man&ndash;&gt;
+            </div>
+
+            &lt;!&ndash;column for remaining 2 pictures&ndash;&gt;
+
+            <div class="col-12 col-sm-5">
+
+                &lt;!&ndash; Card for Macbook &ndash;&gt;
+                <div class="card" style="width: 17rem;">
+                    <span class="border rounded"><img src="img/macbook.jpg" class="card-img-top" alt="Macbook"></span>
+                    <div class="card-body">
+                        <p class="card-subtitle mb-2 text-muted">FEATURED PROJECTS
+                            <span class="small-dot-one text-center">D</span>
+                            <span class="small-dot-two text-center">D</span>
+                            <span class="small-dot-three text-center">S</span>
+                            <span class="small-dot-four text-center">H</span>
+                        </p>
+                    </div>
+                </div>
+                &lt;!&ndash; End of Macbook &ndash;&gt;
+
+                &lt;!&ndash; Card for Security &ndash;&gt;
+                <div class="card" style="width: 17rem;">
+                    <span class="border rounded"><img src="img/security.jpg" class="card-img-top" alt="Apple Ipad"></span>
+                    <div class="card-body">
+                        <p class="card-subtitle mb-2 text-muted">FEATURED PROJECTS
+                            <span class="small-dot-one text-center">D</span>
+                            <span class="small-dot-two text-center">D</span>
+                            <span class="small-dot-three text-center">S</span>
+                            <span class="small-dot-four text-center">H</span>
+                        </p>
+                    </div>
+                </div>
+                &lt;!&ndash; End of security &ndash;&gt;
+            </div>
+        </div>
+        &lt;!&ndash;end of row main card body&ndash;&gt;
+
+    </div>
+    &lt;!&ndash; End of main card body&ndash;&gt;
+
+</div> &lt;!&ndash; end of main-card for selected work"&ndash;&gt;-->
+
+<!-- Main card for The Last section-->
+<!--<div class="card col-md-4 d-sm-none d-md-block text-left" id="main-card">
+
+    &lt;!&ndash;Section for the articles&ndash;&gt;
+    <div class="card mb-4 mr-4">
+        <div class="card-header">
+            THE LAST
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <img id= "twitter-ad-one" src="img/mobile-phone.jpg" alt="mobile phone" class="article-pic float-left mr-3">
+                THE ADMIN BAR AND ABSOLUTE POSITIONING
+            </li>
+            <li id= "twitter-ad-two" class="list-group-item">
+
+                <img src="img/head.jpg" alt="head" class="article-pic float-left mr-3">
+                NIBBLER AWESOME WEBSITE TESTING
+            </li>
+
+            <li id= "twitter-ad-three" class="list-group-item">
+                <img src="img/ipad.jpg" alt="ipad" class="article-pic float-left mr-3">
+                HOW TO GET GOOGLE TO LIKE YOU
+            </li>
+
+        </ul>
+    </div>
+    &lt;!&ndash;End of section for articles &ndash;&gt;
+
+    &lt;!&ndash;Section for Twitter card &ndash;&gt;
+    <div class="card text-left d-none d-xl-block m-3" id="twitter">
+        <div class="card-header">
+            <p class="text-secondary">
+                <i class="fab fa-twitter d-inline-block align-center"></i>
+                LAST TWEET
+            </p>
+            生16少エヌ欠同げぴけ舵敬み
+            ちっ善文スハ冤帰歴ばレうお。
+        </div>
+        &lt;!&ndash; <div class="card-body">
+             生16少エヌ欠同げぴけ舵敬み
+             ちっ善文スハ冤帰歴ばレうお。
+         </div>&ndash;&gt;
+    </div>
+    &lt;!&ndash;End of twitter card &ndash;&gt;
+
+</div>-->
+<!--End of main card for The Last section-->
+<!-- </div>-->
+<!-- end of Row -->
+
+<!--</div>-->
+-->
 </main>
 <!--MAIN END-->
 

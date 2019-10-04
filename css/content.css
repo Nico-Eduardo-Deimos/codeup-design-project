@@ -1,6 +1,11 @@
-body, .main-card, .list-group-item, .list-group, .card, .bottom-nav{
+body, .main-card, .list-group-item, .list-group, .card, .bottom-nav, header{
     background: #F0F0F0;
 }
+
+.last-section{
+    width: 360px;
+}
+
 .anton{
     font-family: 'Anton', sans-serif;
 }
@@ -57,13 +62,6 @@ main .container{
     width: 17rem;
 }
 
-.list-group-item img{
-    width: 50px;
-    height: 50px;
-}
-
-
-
 #logo {
     z-index: 1;
     width: 105px;
@@ -74,10 +72,6 @@ main .container{
     z-index: 2;
 }
 
-header {
-    background-color: white;
-}
-
 .codeup{
     position: relative;
 }
@@ -85,13 +79,45 @@ header {
 .codeup-design{ /*for logo*/
     width: 105px;
     position: absolute;
-    bottom:-1em;
+    bottom:-1.5em;
     left:-0.2em;
 }
 
+.navbar{
+    height: 50px;
+    margin-bottom: 1em;
+    background: white;
+}
 
+header{
+    padding-top: 30px;
+}
 
+header nav ul li a{
+    color: black;
+}
+
+.logo{
+    position: relative;
+    top:-2em;
+}
+
+.main-card{
+    margin:0 auto;
+}
+
+.fa-twitter{
+    color: #38A1F3;
+}
+@media (max-width: 575px){
+    .apple-card{
+        margin:0 auto;
+    }
+}
 @media (min-width: 576px) { /*small*/
+    .last-section{
+        width: 576px;
+    }
 
     .circle{
         border-bottom: 1px solid darkgrey;
@@ -117,10 +143,27 @@ header {
     .logo{
         margin-left: auto;
         margin-right: auto;
+        top: 0.5em;
+    }
+
+    header{
+        padding-top: 10px;
+        margin-bottom: 5em;
+    }
+
+    .navbar-first{
+        margin-left: 6em;
+    }
+
+    .navbar-second{
+        margin-right: 6em;
     }
 }
 
 @media (min-width: 768px){ /*medium*/
+    .last-section{
+        width: 768px;
+    }
     .circles{
         border-bottom: 1px solid darkgrey;
         padding-bottom: 2em;
@@ -128,12 +171,12 @@ header {
     }
 
     .selected-card{
-        width: 13rem;
-        height: 10rem;
+        width: 10rem;
+        height: 8rem;
     }
 
     .card-img-top{
-        height: 8rem;
+        height: 6rem;
     }
 
     .main-card{
@@ -144,7 +187,7 @@ header {
     .codeup-design{
         width: 105px;
         position: absolute;
-        bottom:2.5em;
+        bottom:3em;
         left:7em;
     }
 
@@ -153,14 +196,62 @@ header {
         margin-right: auto;
     }
 
+    .articles{
+        line-height: 28px;
+    }
+
+    .article-pic{
+        width: 40px;
+        height: 40px;
+        border: 2px solid #e6e6e6;
+    }
+
+    .small-dot{
+        width: 10px;
+        height: 10px;
+        font-size: 5px;
+        line-height: 10px;
+        display: inline-block;
+    }
+
+    .featured{
+        font-size: 8px;
+    }
+
+    .navbar-second{
+        margin-left: 1em;
+        margin-right: 2em;
+    }
+
+    .codeup{
+        margin-left: 2em;
+    }
+
+    .apple-card, .man-card{
+        float: right;
+    }
 }
 @media (min-width: 992px){ /*l-xl*/
+    .last-section{
+        width: 992px;
+    }
     .circles{
         border-bottom: 1px solid darkgrey;
         padding-bottom: 2em;
         margin-bottom: 3em;
     }
 
+    .navbar-second{
+        margin-left: 1em;
+        margin-right: 15em;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .last-section{
+        width: 1200px;
+    }
 }
 @media (min-width: 576px){ /*small view*/
 
@@ -176,12 +267,7 @@ header {
 
     }
 }
-@media (max-width: 575px){ /*xs view*/
-    .main-card{
-        padding-left: 25%;
 
-    }
-}
 /** {
     background-color: #F0F0F0;
 }
