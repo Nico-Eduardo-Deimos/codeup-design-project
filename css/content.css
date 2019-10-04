@@ -129,6 +129,10 @@ header nav ul li a{
     .logo{
         top:-1.5em;
     }
+
+    .main-card{
+        margin-top:3em;
+    }
 } /*xs end*/
 
 @media (min-width: 576px) { /*small start*/
@@ -284,6 +288,16 @@ header nav ul li a{
     }
 } /*medium end*/
 
+@media (min-width: 992px){
+    .logo{
+        margin-left: 10vw;
+    }
+
+    .navbar-second{
+        margin-right: 10vw;
+    }
+}
+
 @media (min-width: 1200px) { /*XL start*/
     .main-card{
         padding-left: 15em;
@@ -298,6 +312,14 @@ header nav ul li a{
 
     .last-section{
         width: 1200px;
+    }
+
+    .logo{
+        margin-left: 20vw;
+    }
+
+    .navbar-second{
+        margin-right: 20vw;
     }
 }/*L-XL END*/
 
