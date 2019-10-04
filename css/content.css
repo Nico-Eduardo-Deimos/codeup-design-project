@@ -132,6 +132,9 @@ header nav ul li a{
 } /*xs end*/
 
 @media (min-width: 576px) { /*small start*/
+    hr{
+        width: calc(105px * 4);
+    }
 
     h6{
         margin-right: auto;
@@ -145,7 +148,6 @@ header nav ul li a{
     }
 
     .circles {
-        border-bottom: 1px solid darkgrey;
         padding-bottom: 2em;
         margin-bottom: 3em;
 
@@ -200,6 +202,9 @@ header nav ul li a{
 } /*small end*/
 
 @media (min-width: 768px){ /*medium start*/
+    hr{
+        width: calc(430px + 250px);
+    }
 
     h6{
         margin-right: 2em;
@@ -213,7 +218,6 @@ header nav ul li a{
         width: 768px;
     }
     .circles{
-        border-bottom: 1px solid darkgrey;
         padding-bottom: 2em;
         margin-bottom: 3em;
     }
@@ -280,34 +284,12 @@ header nav ul li a{
     }
 } /*medium end*/
 
-/*@media (min-width: 992px){ !*large*!
-    h6{
-        margin-right: auto;
-        margin-left: 3em;
-    }
-
-    .last-section{
-        width: 992px;
-    }
-    .circles{
-        border-bottom: 1px solid darkgrey;
-        padding-bottom: 2em;
-        margin-bottom: 3em;
-    }
-
-    .navbar-second{
-        margin-left: 1em;
-        margin-right: 15em;
-    }*/ /*large end*/
-
 @media (min-width: 1200px) { /*XL start*/
     .main-card{
         padding-left: 15em;
 
     }
-    #twitter{
 
-    }
     .card-img-top{
         width: 200px;
         height: 110px;
